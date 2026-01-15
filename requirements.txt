@@ -1,0 +1,8 @@
+selenium
+webdriver-manager
+beautifulsoup4
+requests
+python-telegram-bot
+thefuzz
+python-Levenshtein
+python-dotenv
