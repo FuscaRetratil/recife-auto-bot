@@ -1,0 +1,24 @@
+# --- Segurança (CRÍTICO) ---
+.env
+
+# --- Banco de Dados ---
+data/*.db
+data/*.sqlite
+
+# --- Python Cache (Lixo do sistema) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Logs ---
+*.log
+npm-debug.log*
+
+# --- Ambientes Virtuais ---
+venv/
+env/
+.venv/
+
+# --- IDEs ---
+.vscode/
+.idea/
