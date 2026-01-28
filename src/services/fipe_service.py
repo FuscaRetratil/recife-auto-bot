@@ -27,7 +27,7 @@ class FipeService:
         
         try:
             url = f"{self.base_url}/{brand_id}/modelos"
-            response = requests.get(url, timeout=5)
+            response = requests.get(url, timeout=15)
             if response.status_code == 200:
                 data = response.json()
                 models = data.get('modelos', [])

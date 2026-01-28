@@ -22,3 +22,5 @@ env/
 # --- IDEs ---
 .vscode/
 .idea/
+
+src/config/clients.json
