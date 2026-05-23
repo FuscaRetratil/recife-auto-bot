@@ -1,0 +1,10 @@
+[MESSAGES CONTROL]
+# Desabilita erros chatos para MVP:
+# C0114: missing-module-docstring
+# C0115: missing-class-docstring
+# C0116: missing-function-docstring
+disable=C0114,C0115,C0116
+
+[FORMAT]
+# Aumenta o limite de linha para 120 (o padrão de 80 é muito curto hoje em dia)
+max-line-length=120
